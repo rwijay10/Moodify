@@ -66,96 +66,7 @@
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="115.84821428571428"/>
         </scene>
-        <!--Check-in-->
-        <scene sceneID="3Ps-Nx-KtB">
-            <objects>
-                <viewController id="b4F-u4-Pdk" customClass="UITabBarController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nvv-UK-JRq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPq-Op-jxc">
-                                <rect key="frame" x="339" y="215" width="65" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="😡"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgt-dR-lI8">
-                                <rect key="frame" x="147" y="215" width="65" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="😐"/>
-                                <connections>
-                                    <action selector="meh:" destination="icY-r6-KNV" eventType="touchUpInside" id="5bz-IU-LCp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2n-qw-njD">
-                                <rect key="frame" x="211" y="215" width="65" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="😔"/>
-                                <connections>
-                                    <action selector="sad:" destination="icY-r6-KNV" eventType="touchUpInside" id="033-1d-4gK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCD-dd-qNO">
-                                <rect key="frame" x="13" y="216" width="65" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="🤗"/>
-                                <connections>
-                                    <action selector="veryHappy:" destination="icY-r6-KNV" eventType="touchUpInside" id="Pb8-N0-yvA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcz-6I-QA2">
-                                <rect key="frame" x="275" y="215" width="65" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="😣"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch2-mW-V0V">
-                                <rect key="frame" x="78" y="215" width="65" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="🙂"/>
-                                <connections>
-                                    <action selector="happy:" destination="icY-r6-KNV" eventType="touchUpInside" id="DFz-6y-TA3"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you feeling today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ue3-9A-Fzy">
-                                <rect key="frame" x="10" y="150" width="394" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Logs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jF-Gz-e2j">
-                                <rect key="frame" x="133" y="78" width="143" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="45"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyv-wA-i2X">
-                                <rect key="frame" x="41" y="354" width="332" height="242"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.88332050056176248" blue="0.82198610490947233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Bo4-bL-19l"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Check-in" selectedImage="square.and.pencil" catalog="system" id="gqi-cU-qRU"/>
-                    <navigationItem key="navigationItem" id="nJe-45-1yM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jx2-b4-Knb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="icY-r6-KNV" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="-1283" y="815"/>
-        </scene>
-        <!--Item-->
+        <!--Log -->
         <scene sceneID="WWr-2T-Wm0">
             <objects>
                 <viewController id="AIP-h8-bAb" sceneMemberID="viewController">
@@ -163,22 +74,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BFF-uw-55t">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQc-2f-1GF">
+                                <rect key="frame" x="20" y="20" width="374" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="v5Z-7u-LvG"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="W0G-CC-J4g"/>
-                            </scrollView>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                <color key="textColor" red="0.82544812820000002" green="0.44803128339999998" blue="0.43492739650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you feeling today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWD-p8-vii">
+                                <rect key="frame" x="10" y="65" width="394" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="29"/>
+                                <color key="textColor" red="0.9103545368" green="0.59340851859999999" blue="0.59457374659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9X-we-EQH">
+                                <rect key="frame" x="8" y="112" width="399" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your mood was Extremely Happy today! Let’s reflect on your day: What were three good things that happened throughout your day? Did you have any successes? How will you make tomorrow better? </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kt7-2X-JJb">
+                                <rect key="frame" x="20" y="213" width="374" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your mood was Happy today! Let’s reflect on your day: What were three good things that happened? Were there any big wins? If so, who was there to celebrate with you? What will you do to make tomorrow better?</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fm1-PD-kFw">
+                                <rect key="frame" x="10" y="312" width="394" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your mood was Meh today! Remember: your day will be better eventually! Let’s reflect on your day: Think about one thing that went well for you today. Were you with anyone when it happened? Were you doing something specific? Try to do it again tomorrow if it made you happy! </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZV-Z3-xtA">
+                                <rect key="frame" x="10" y="421" width="394" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your mood was Sad today! That’s totally okay!Let’s reflect on your day: Try really hard to think about at least one good thing that went your way. What could’ve gone differently and what you could do better tomorrow? </string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSs-Cm-9CH">
+                                <rect key="frame" x="20" y="531" width="374" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your mood was Stressed today! Know that you tried your best today and that’s what matters! Let’s reflect on your day: What are somethings that you could do to relieve your stress? You could talk to a loved one or take a break to relax. There is always someone you can talk too!</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="880-rN-9iS">
+                                <rect key="frame" x="0.0" y="653" width="407" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Your mood was Angry today! You can let your frustration out safely! Let’s reflect on your day: What made you angry today? Can you fix what you’re angry about? Forgiving yourself and others is key. Try going outside and getting fresh air! Take in all the nature and beauty of the world!</string>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.8833205006" blue="0.82198610490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="T1j-5w-LPv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bYT-8h-By3"/>
+                    <tabBarItem key="tabBarItem" title="Log " image="square.and.pencil" catalog="system" id="bYT-8h-By3"/>
                     <navigationItem key="navigationItem" id="MH0-Rn-jAb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bx-B9-jy4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1046.376811594203" y="1498.6607142857142"/>
+        </scene>
+        <!--Tips-->
+        <scene sceneID="xm3-P0-AzS">
+            <objects>
+                <viewController id="QB6-SZ-RXN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tTU-ox-URo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZiH-du-YZp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tips" image="plus" catalog="system" id="YM4-NF-7ST"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7u-yU-eDx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-944" y="738"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JpP-Tn-nzu">
@@ -194,6 +177,7 @@
                         <segue destination="AIP-h8-bAb" kind="relationship" relationship="viewControllers" id="zKz-eE-wyd"/>
                         <segue destination="rYZ-dK-oQW" kind="relationship" relationship="viewControllers" id="lFt-qZ-FfJ"/>
                         <segue destination="IW2-TA-OKk" kind="relationship" relationship="viewControllers" id="5tB-up-1tV"/>
+                        <segue destination="QB6-SZ-RXN" kind="relationship" relationship="viewControllers" id="wTk-8Q-CWQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUw-vV-MLM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -255,7 +239,7 @@
                         <color key="backgroundColor" red="0.92228281023594649" green="0.91928096221211864" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qrg-PX-U5j"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About Us" selectedImage="person.3.fill" catalog="system" id="FNB-WV-fYT"/>
+                    <tabBarItem key="tabBarItem" title="About Us" image="person.3" catalog="system" selectedImage="person.3.fill" id="FNB-WV-fYT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JgQ-G2-J54" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -306,15 +290,15 @@
                                 <color key="textColor" red="0.071115770310000007" green="0.3128767449" blue="0.085035475499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dealing With Anxiety" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-UF-aFm">
-                                <rect key="frame" x="128" y="366" width="159" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coping With Anxiety" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJQ-UF-aFm">
+                                <rect key="frame" x="128" y="366" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.18178144960000001" green="0.49335739210000001" blue="0.2179868086" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help With Depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spQ-XM-3TX">
-                                <rect key="frame" x="119" y="485" width="177" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coping With Depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spQ-XM-3TX">
+                                <rect key="frame" x="119" y="485" width="186" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.18178144960000001" green="0.49335739210000001" blue="0.2179868086" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -351,8 +335,8 @@
                                 <color key="textColor" red="0.18178144960000001" green="0.49335739210000001" blue="0.2179868086" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copy and paste the link below into your browser to access them" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mP-ir-3SN">
-                                <rect key="frame" x="20" y="154" width="374" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copy and paste the links below into your browser to access them" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mP-ir-3SN">
+                                <rect key="frame" x="10" y="137" width="394" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.071115770310000007" green="0.3128767449" blue="0.085035475499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -362,7 +346,7 @@
                         <color key="backgroundColor" red="0.89308100897249842" green="1" blue="0.83143917257022004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O9a-CQ-0fQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Resources" selectedImage="doc" catalog="system" id="EVD-DC-pS7"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="doc" catalog="system" selectedImage="doc" id="EVD-DC-pS7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAr-ba-7M1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -371,7 +355,9 @@
     </scenes>
     <resources>
         <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="square.and.pencil" catalog="system" width="128" height="118"/>
     </resources>
 </document>
