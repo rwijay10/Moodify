@@ -59,9 +59,9 @@ class ThirdViewController: UIViewController {
     //(Bonus: Start a daily refleciton journal!)
     //(Bonus: Take action to make tomorrow better!)
     //(Bonus: Get some exercise! Moving can help you sort out your thoughts and reflect!)
-    // We can’t always control outside factors and sometimes they can mess with our day but we can control ourselves and how we react!
+    // Remember, we can’t always control outside factors and sometimes they can mess with our day but we can control ourselves and how we react!
     //(Bonus: Breath in deeply through your nose and breath out slowly from your mouth!)
-    //Often when we’re upset little things can feel amplified.
+    //Often when we’re upset little things can feel amplified making it seem like one thing after another goes wrong. When this happens close your eyes and take a breath to relax
     //Take a deep breath and try to stay calm in frustrating situations.
     //(Bonus: Take a step back and get a new perspective!)
 //            }
